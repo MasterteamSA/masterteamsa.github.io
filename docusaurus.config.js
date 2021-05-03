@@ -19,13 +19,19 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'workflow/intro',
           position: 'left',
           label: 'Workflow',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          type: 'doc',
+          docId: 'components/intro',
+          position: 'left',
+          label: 'Component Library',
+        },
+        {
+          href: 'https://bitbucket.org/mwfrontend/guideline',
+          label: 'Bitbucket',
           position: 'right',
         },
       ],
@@ -38,38 +44,38 @@ module.exports = {
           items: [
             {
               label: 'Workflow',
-              to: '/docs/intro',
+              to: '/docs/workflow/intro',
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
+//      {
+//        title: 'Community',
+//        items: [
+//          {
+//            label: 'Stack Overflow',
+//            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+//          },
+//          {
+//            label: 'Discord',
+//            href: 'https://discordapp.com/invite/docusaurus',
+//          },
+//          {
+//            label: 'Twitter',
+//            href: 'https://twitter.com/docusaurus',
+//          },
+//        ],
+//      },
         {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Bitbucket',
+              href: 'https://bitbucket.org/mwfrontend/guideline',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Masterteam, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
