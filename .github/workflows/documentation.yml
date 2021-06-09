@@ -35,13 +35,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - name: Release to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_USER: git
+      - name: Build
         run: |
-          git config --global user.email "fdsmohammed@gmail.com"
-          git config --global user.name "linkinmedo"
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
@@ -49,4 +44,9 @@ jobs:
           else
           npm i
           fi
-          npm run deploy
+          npm run build
+      - name: Release to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
