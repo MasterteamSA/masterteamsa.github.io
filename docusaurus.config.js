@@ -3,7 +3,7 @@ module.exports = {
   title: 'Masterteam Guideline',
   tagline: 'Work and Code guidelines.',
   url: 'https://masterteamsa.github.io',
-  baseUrl: '/',
+  baseUrl: '/guideline-web/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
