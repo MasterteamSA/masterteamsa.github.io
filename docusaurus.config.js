@@ -8,7 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'MasterteamSA', // Usually your GitHub org/user name.
-  projectName: 'masterteamsa.github.io', // Usually your repo name.
+  projectName: 'guideline-web', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'MT Guideline',
@@ -30,8 +30,8 @@ module.exports = {
           label: 'Component Library',
         },
         {
-          href: 'https://bitbucket.org/mwfrontend/guideline',
-          label: 'Bitbucket',
+          href: 'https://github.com/MasterteamSA/guideline-web',
+          label: 'Github',
           position: 'right',
         },
       ],
@@ -69,8 +69,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Bitbucket',
-              href: 'https://bitbucket.org/mwfrontend/guideline',
+              label: 'Github',
+              href: 'https://github.com/MasterteamSA/guideline-web',
             },
           ],
         },
@@ -86,7 +86,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-          'https://bitbucket.org/mwfrontend/guideline/src/master/',
+            'https://github.com/MasterteamSA/guideline-web/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
