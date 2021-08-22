@@ -1,76 +1,76 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Masterteam Guideline',
-  tagline: 'Work and Code guidelines.',
-  url: 'https://masterteamsa.github.io',
-  baseUrl: '/guideline-web/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'MasterteamSA', // Usually your GitHub org/user name.
-  projectName: 'guideline-web', // Usually your repo name.
+  title: "Masterteam Guideline",
+  tagline: "Work and Code guidelines.",
+  url: "https://masterteamsa.github.io",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "MasterteamSA", // Usually your GitHub org/user name.
+  projectName: "masterteamsa.github.io", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'MT Guideline',
+      title: "MT Guideline",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "My Site Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'workflow/intro',
-          position: 'left',
-          label: 'Workflow',
+          type: "doc",
+          docId: "workflow/intro",
+          position: "left",
+          label: "Workflow",
         },
         {
-          type: 'doc',
-          docId: 'components/intro',
-          position: 'left',
-          label: 'Component Library',
+          type: "doc",
+          docId: "components/intro",
+          position: "left",
+          label: "Component Library",
         },
         {
-          href: 'https://github.com/MasterteamSA/guideline-web',
-          label: 'Github',
-          position: 'right',
+          href: "https://github.com/MasterteamSA/masterteamsa.github.io",
+          label: "Github",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Workflow',
-              to: '/docs/workflow/intro',
+              label: "Workflow",
+              to: "/docs/workflow/intro",
             },
           ],
         },
-//      {
-//        title: 'Community',
-//        items: [
-//          {
-//            label: 'Stack Overflow',
-//            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-//          },
-//          {
-//            label: 'Discord',
-//            href: 'https://discordapp.com/invite/docusaurus',
-//          },
-//          {
-//            label: 'Twitter',
-//            href: 'https://twitter.com/docusaurus',
-//          },
-//        ],
-//      },
+        //      {
+        //        title: 'Community',
+        //        items: [
+        //          {
+        //            label: 'Stack Overflow',
+        //            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //          },
+        //          {
+        //            label: 'Discord',
+        //            href: 'https://discordapp.com/invite/docusaurus',
+        //          },
+        //          {
+        //            label: 'Twitter',
+        //            href: 'https://twitter.com/docusaurus',
+        //          },
+        //        ],
+        //      },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Github',
-              href: 'https://github.com/MasterteamSA/guideline-web',
+              label: "Github",
+              href: "https://github.com/MasterteamSA/masterteamsa.github.io",
             },
           ],
         },
@@ -80,16 +80,16 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/MasterteamSA/guideline-web/tree/master/',
+            "https://github.com/MasterteamSA/masterteamsa.github.io/tree/master/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
