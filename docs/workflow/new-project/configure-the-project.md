@@ -10,7 +10,7 @@ Once you have the repo cloned to your machine it's time to configure the project
 
 We usually use different port number for each client to make it easier to develop for multiple clients without having to deal with clearing data all the time.
 
-The port number for ***PPlus*** projects starts from ***3000*** and the port number for ***SPlus*** projects starts from ***4000***.
+The port number for ***PPlus*** projects starts from ***3000***, the port number for ***SPlus*** projects starts from ***4000*** and the port number for ***Diwan*** projects starts from ***5000***.
 
 This number will be a simple increment from the last use number for each product we have and it will be configured in the run script in the `package.json` file.
 

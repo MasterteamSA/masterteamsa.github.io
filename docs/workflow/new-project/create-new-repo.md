@@ -9,6 +9,7 @@ products repos which are the following:
 
 - ***[PPlus](https://github.com/MasterteamSA/pplus-web)***
 - ***[SPlus](https://github.com/MasterteamSA/splus-web)***
+- ***[Diwan](https://github.com/MasterteamSA/diwan-web)***
 
 to do that we start by clicking the `New repository` button, located in the header bar or the organization page.
 
@@ -24,6 +25,7 @@ First of all you should select the template you want the repo to be based on acc
 
 - `MasterteamSA/pplus-web` for pplus
 - `MasterteamSA/splus-web` for splus
+- `MasterteamSA/diwan-web` for diwan
 
 ![Templete Selection](/img/create-repo/template-selection.png)
 
@@ -37,6 +39,7 @@ For the naming of the repository it should be handled as follows:
 
 - PPlus: `pplus-{{client-name}}-web`.
 - SPlus: `splus-{{client-name}}-web`.
+- Diwan: `diwan-{{client-name}}-web`.
 
 ![Owner and Name](/img/create-repo/owner-name.png)
 
