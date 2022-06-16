@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/mw-square-logo.png",
   organizationName: "MasterteamSA", // Usually your GitHub org/user name.
   projectName: "masterteamsa.github.io", // Usually your repo name.
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
       title: "MT Guideline",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/mw-square-logo.png",
       },
       items: [
         {
