@@ -8,7 +8,7 @@ The first step to start a new client project is to create a new repository which
 products repos which are the following:
 
 - ***[PPlus](https://github.com/MasterteamSA/pplus-web)***
-- ***[SPlus](https://github.com/MasterteamSA/splus-web)***
+- ***[SPlus](https://github.com/MasterteamSA/SPlusV2)***
 - ***[Diwan](https://github.com/MasterteamSA/diwan-web)***
 
 to do that we start by clicking the `New repository` button, located in the header bar or the organization page.
